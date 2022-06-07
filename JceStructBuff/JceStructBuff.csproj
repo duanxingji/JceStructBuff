@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <Version>1.0.1</Version>
+    <TargetFrameworks>net6.0;netstandard2.1;net40;net45;</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <LangVersion>10.0</LangVersion>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageIcon>微信图片_20220302170346.jpg</PackageIcon>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/duanxingji/JceStructBuff</RepositoryUrl>
+	  <Authors>DuanXingJi</Authors>
+	  <PackageProjectUrl>https://github.com/duanxingji/JceStructBuff</PackageProjectUrl>
+	  <PackageTags>JceStruct,Jce</PackageTags>
+	  <Description>基于Net实现的JceStruct数据结构序列化、反序列化、转Json等等</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\微信图片_20220302170346.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+	  <Using Remove="System.Net.Http" />
+  </ItemGroup>
+
+</Project>
